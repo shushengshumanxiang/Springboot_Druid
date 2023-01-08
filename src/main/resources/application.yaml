@@ -1,0 +1,19 @@
+
+# 第一种配置druid方法，但是不是最好的办法
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/reggie
+#    username: root
+#    password: root
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+
+spring:
+  datasource:
+      druid:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/reggie
+          username: root
+          password: root
